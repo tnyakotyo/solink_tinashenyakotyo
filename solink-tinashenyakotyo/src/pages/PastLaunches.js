@@ -3,7 +3,7 @@ import { useQuery, gql } from '@apollo/client'
 const PastLaunches = () => {
   const FILMS_QUERY = gql`
     {
-      launchesPast(limit: 10) {
+      launchesPast(limit: 20) {
         launch_date_local
         launch_site {
           site_name
